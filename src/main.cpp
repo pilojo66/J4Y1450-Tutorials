@@ -3,8 +3,16 @@
 using namespace std;
 
 int main(){
-	cout << "Hello World!" << endl;
-	cout << "IS IT WORKING? DID I DO IT RIGHT?" << endl;
+
+	int x;
+	int y;
+	int product;
+	cout << "Pick 2 numbers to multiply:" << endl;
+	cin >> x;
+	cin >> y;
+	cout << endl;
+	product = x * y;
+	cout << "The product is: " << product;
 	_getch();
 	return 0;
 }
