@@ -16,6 +16,7 @@ int main(){
 	if(product > 500){
 		cout << "fkajd;f";
 	}
+	cout << "pilojo test" << endl;
 	_getch();
 	return 0;
 }
