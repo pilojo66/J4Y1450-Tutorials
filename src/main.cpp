@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-
 	int x;
 	int y;
 	int product;
@@ -13,6 +12,10 @@ int main(){
 	cout << endl;
 	product = x * y;
 	cout << "The product is: " << product;
+
+	if(product > 500){
+		cout << "fkajd;f";
+	}
 	_getch();
 	return 0;
 }
