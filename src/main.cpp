@@ -1,22 +1,13 @@
 #include <iostream>
 #include <conio.h>
+#include "RandomClass.h"
 using namespace std;
 
 int main(){
-	int x;
-	int y;
-	int product;
-	cout << "Pick 2 numbers to multiply:" << endl;
-	cin >> x;
-	cin >> y;
-	cout << endl;
-	product = x * y;
-	cout << "The product is: " << product;
+	RandomClass class1;
 
-	if(product > 500){
-		cout << "fkajd;f";
-	}
-	cout << "pilojo test" << endl;
-	_getch();
+	class1.setInt(1,5);
+	class1.setString("JIMBOB");
+
 	return 0;
 }
