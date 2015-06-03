@@ -10,7 +10,6 @@ class RandomClass{
 	string b;
 public:
 	RandomClass();
-	~RandomClass();
 	void setString(string);
 	void setInt(int, int);
 }
